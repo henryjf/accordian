@@ -6,8 +6,8 @@ import $ from 'jquery';
 //   $('.box2').toggleClass('unslide');
 // })
 
-$("box1").removeClass("box1" transition);
-$().addClass();
-$().removeClass();
+$("box1").addClass("box1");
+$("box2").addClass("box2");
+$("box3").removeClass("box3");
 
 
