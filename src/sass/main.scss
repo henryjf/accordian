@@ -1,42 +1,28 @@
 /* CSS Entry Point */
-.button-list {
+.sections {
 	margin-bottom: 30px;
 }
 
-.button-list h2 {
+.sections h2 {
+	color: white;
+	background-color: #16c5e3;
 	border: 1px solid red;
     padding: 15px;
 }
 
-.box1 {
+.box {
 	border: 1px solid red;
  	margin: 30px;
-	// padding-right: 50px;
-	// padding-left: 50px;
 	margin-bottom: 75px;
-	// transition: all;
-	// position: absolute;
-	// top: 0;
 }
 
-.box2 {
-	border: 1px solid red;
-	margin: 30px;
-	// padding-right: 50px;
-	// padding-left: 50px;
-	margin-bottom: 75px;
-	// transition: all;
-	// position: absolute;
-	// top: 0;
+// #box2 {transition: all;
+// 	position: absolute;
+// 	top: 60px;
+// }
+
+#box3 {transition: all;
+	position: absolute;
+	top: 125px;
 }
 
-.box3 {
-	border: 1px solid red;
-	margin: 30px;
-	// padding-right: 50px;
-	// padding-left: 50px;
-	margin-bottom: 75px;
-	// transition: all;
-	// position: absolute;
-	// top: 0;
-}

@@ -2,4 +2,12 @@
 
 import $ from 'jquery';
 
-$('.sections').css('margin', '15px');
+// $('.slide').on('remove class{
+//   $('.box2').toggleClass('unslide');
+// })
+
+$("box1").removeClass("box1" transition);
+$().addClass();
+$().removeClass();
+
+
