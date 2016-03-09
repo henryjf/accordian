@@ -1,13 +1,13 @@
 /* CSS Entry Point */
-.sections {
-	margin-bottom: 30px;
-}
+
 
 .sections h2 {
+
 	color: white;
 	background-color: #16c5e3;
 	// border: 1px solid red;
     padding: 15px;
+    margin-top: 0px;
 }
 
 
@@ -18,19 +18,30 @@
 
 
 .box {
-	border: 1px solid red;
- 	margin-right: 150px;
- 	margin-left: 150px;
-	margin-bottom: 75px;
+	border: 1px solid #16c5e3;
+ 	margin-right: 175px;
+ 	margin-left: 175px;
+ 	transition: all 5s;
+    position: absolute;
+    top: 0;
+ }
+
+ p {
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ }
+
+	// margin-bottom: 75px;
+
+
+#box2 {transition: all;
+	position: absolute;
+	top: 60px;
+	top: calc(100% - 150px);
 }
 
-// #box2 {transition: all;
-// 	position: absolute;
-// 	top: 60px;
-// }
-
-// #box3 {transition: all;
-// 	position: absolute;
-// 	top: 125px;
-//}
+#box3 {transition: all;
+	position: absolute;
+	top: 125px;
+}
 

@@ -6,8 +6,10 @@ import $ from 'jquery';
 //   $('.box2').toggleClass('unslide');
 // })
 
-$("box1").addClass("box1");
-$("box2").addClass("box2");
-$("box3").removeClass("box3");
 
-
+// $('input:box').click(function())
+$("#box1").click(function(){
+ $("p").addClass("#box2");
+//  // $("#box2").addClass("#box3");
+//  // $("#box3").removeClass("#box1");
+ });
